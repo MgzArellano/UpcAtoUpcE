@@ -7,6 +7,10 @@ public class Process {
 
     public void testCommit(){
         System.out.println("Una prueba de commit");
+        for (int i = 0; i<10; i++){
+            System.out.println("Prueba de for");
+            i = i+1;
+        }
     }
 
 
